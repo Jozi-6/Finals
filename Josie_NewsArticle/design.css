@@ -1,0 +1,100 @@
+body {
+    font-family: ;
+    margin: 50px 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+.Title{
+    background-color: lightblue;
+}
+
+
+@media(max-width: 480px){
+    img{
+        width: 99%;
+        height: auto;
+    }
+    body{
+        background-color: wheat;
+    }
+    h1{
+        font-family: "Cormorant Unicase", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+    h2{
+        color: yellow;
+    }
+    h4{
+        font-family: fantasy;
+        color: grey;
+    }
+    p{
+        font-family: cursive;
+    }
+    h5{
+        font-family: monospace;
+        color:forestgreen ;
+    }
+}
+@media (min-width: 481px) and (max-width: 900px) { 
+    img{
+        width: 99%;
+        height: auto;
+    }
+    body { 
+        background-color: burlywood; 
+    }
+    h1{
+        font-family: "Luckiest Guy", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+    h2{
+        color: green;
+        font-family: cursive;
+    }
+    h4{
+        font-size: medium;
+        font-style: italic;
+    }
+    p{
+        font-style: italic;
+    }
+}
+@media(min-width:901px){
+    img {
+      width: 99%;
+      height: auto;
+    }
+    p{
+      font-family: cursive;
+      font-style: italic;
+      color: grey;
+    }
+    h2{
+      color: yellow;
+    }
+    body{
+      background-color: #F7E7CE;
+    }
+    h1{
+      color: lightslategrey;
+    }
+    p{
+        color: grey;
+        font-family: "Carattere", cursive;
+        font-weight: 400;
+        font-style: normal;   
+    }
+    h4{
+        font-family: monospace;
+        font-weight: bolder;
+        font-size: xx-large;
+        color: lightsteelblue;
+    }
+    h5{
+        color: lightcyan;
+    }
+  }
